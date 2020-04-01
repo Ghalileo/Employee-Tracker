@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS tracker_db;
+
 USE tracker_db;
 
 INSERT INTO employee (firstName, lastName, role_id,manager_id)
